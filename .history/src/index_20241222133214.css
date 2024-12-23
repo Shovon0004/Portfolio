@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  padding: 0;
+ body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrollbars from appearing due to particle effects */
+  position: relative;
+}
+
+#particle-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 0; /* Ensures the particle effect stays behind other elements */
+  pointer-events: none; /* Allows user interaction with elements above the effect */
+}
+ /* Prevents scrollbars from appearing due to particle effects */
+  position: relative;
+}
+
+#particle-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 0; /* Ensures the particle effect stays behind other elements */
+  pointer-events: none; /* Allows user interaction with elements above the effect */
+}
