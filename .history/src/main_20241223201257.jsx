@@ -58,9 +58,7 @@ createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
     <About />
     <Projects />
-    <Contact />
-    <Skill />
-    <Blogs />
+    
      
   </StrictMode>,
 )

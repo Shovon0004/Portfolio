@@ -15,7 +15,7 @@ const skills = [
   { name: "Java", icon: "☕" }, // Added Java
   { name: "C++", icon: "💻" }, // Added C++
     { name: "Objective-C", icon: "🔵" },
-  { name: "Flask", icon: "🌶" },  // Added Objective-C
+  { name: "Objective-C", icon: "🔵" },  // Added Objective-C
 ];
 
 const Skill = () => {
@@ -24,7 +24,7 @@ const Skill = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.5, 1], [1, 0.8, 0]);
 
   return (
-    <div className="skill-container dark:bg-gray-900">
+    <div className="skill-container">
       <motion.div
         className="parallax-header"
         style={{ x, opacity }}

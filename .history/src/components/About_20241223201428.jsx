@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 
 export default function About() {
     return (
-        <div className="dark:bg-gray-900">
         <motion.div
             className="w-full max-w-7xl mx-auto px-6 py-12 dark:bg-gray-900"
             initial={{ opacity: 0, y: -50 }}
@@ -35,7 +34,7 @@ export default function About() {
                     animate={{ scale: 1 }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
                 />
-                <div className="sm:w-2/3 text-center sm:text-left dark:bg-gray-900">
+                <div className="sm:w-2/3 text-center sm:text-left">
                     <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
                         Hello! I'm <span className="font-bold text-orange-700">Shovon Halder</span>, a passionate developer and a lifelong learner. I thrive on solving challenges, creating impactful projects, and constantly improving my skills.
                     </p>
@@ -99,7 +98,6 @@ export default function About() {
                     <li>Passionate about solving puzzles, exploring AI/ML, and contributing to open-source projects.</li>
                 </ul>
             </motion.div>
-            </motion.div>
-            </div>
+        </motion.div>
     );
 }

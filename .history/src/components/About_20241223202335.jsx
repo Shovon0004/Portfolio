@@ -99,7 +99,6 @@ export default function About() {
                     <li>Passionate about solving puzzles, exploring AI/ML, and contributing to open-source projects.</li>
                 </ul>
             </motion.div>
-            </motion.div>
-            </div>
+        </motion.div>
     );
 }

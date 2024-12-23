@@ -21,8 +21,8 @@ const Blog = () => {
   ];
 
   return (
-    <div className="dark:bg-gray-900">
-    <div className=" dark:bg-gray-900 min-h-screen flex flex-col items-center justify-center  text-white p-4 relative">
+    <div>
+    <div className=" dark:bg-gray-900min-h-screen flex flex-col items-center justify-center  text-white p-4 relative">
       <motion.div
         className="text-center mb-8 dark:bg-gray-900"
         initial={{ y: -50, opacity: 0 }}
@@ -79,7 +79,7 @@ const Blog = () => {
             </div>
       </motion.div>
       </div>
-      </div>
+      <
   );
 };
 

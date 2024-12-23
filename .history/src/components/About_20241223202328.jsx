@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
     return (
-        <div className="dark:bg-gray-900">
+        <div className="dark:bg-gray"></div>
         <motion.div
             className="w-full max-w-7xl mx-auto px-6 py-12 dark:bg-gray-900"
             initial={{ opacity: 0, y: -50 }}
@@ -99,7 +99,6 @@ export default function About() {
                     <li>Passionate about solving puzzles, exploring AI/ML, and contributing to open-source projects.</li>
                 </ul>
             </motion.div>
-            </motion.div>
-            </div>
+        </motion.div>
     );
 }

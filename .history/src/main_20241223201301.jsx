@@ -59,8 +59,7 @@ createRoot(document.getElementById('root')).render(
     <About />
     <Projects />
     <Contact />
-    <Skill />
-    <Blogs />
+    
      
   </StrictMode>,
 )

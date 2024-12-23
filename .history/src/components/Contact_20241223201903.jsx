@@ -125,7 +125,6 @@ export default function Contact() {
                             
                             <img className="sm:w-96 w-48 place-items-end mb-10" src="/public/11.png" alt="image2" />   
                         </motion.div>
-            </motion.div>
-            </div>
+        </motion.div>
     );
 }

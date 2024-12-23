@@ -37,7 +37,7 @@ export default function Contact() {
     };
 
     return (
-        <div className="dark:bg-gray-900">
+        <div className=""></div>
         <motion.div
             className="w-full max-w-7xl mx-auto px-6 py-12 dark:bg-gray-900"
             initial={{ opacity: 0, y: -50 }}
@@ -125,7 +125,6 @@ export default function Contact() {
                             
                             <img className="sm:w-96 w-48 place-items-end mb-10" src="/public/11.png" alt="image2" />   
                         </motion.div>
-            </motion.div>
-            </div>
+        </motion.div>
     );
 }

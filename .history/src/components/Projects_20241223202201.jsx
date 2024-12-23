@@ -65,7 +65,7 @@ const Projects = () => {
   ];
 
     return (
-      <div className='dark:bg-gray-900'>
+      <div className=''></div>
     <div className=" mx-auto w-full container mx-auto px-10 py-16 dark:bg-gray-900">
       <motion.h2 
         className="text-4xl font-bold mb-12 text-center text-orange-500 hover:text-orange-700 focus:text-orange-700"
@@ -161,8 +161,7 @@ const Projects = () => {
           </motion.div>
         ))}
       </div>
-            </div>
-            </div>
+    </div>
   );
 };
 

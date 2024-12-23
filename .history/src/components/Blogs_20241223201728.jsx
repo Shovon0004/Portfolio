@@ -21,8 +21,7 @@ const Blog = () => {
   ];
 
   return (
-    <div className="dark:bg-gray-900">
-    <div className=" dark:bg-gray-900 min-h-screen flex flex-col items-center justify-center  text-white p-4 relative">
+    <div className=" dark:bg-gray-900min-h-screen flex flex-col items-center justify-center  text-white p-4 relative">
       <motion.div
         className="text-center mb-8 dark:bg-gray-900"
         initial={{ y: -50, opacity: 0 }}
@@ -78,8 +77,7 @@ const Blog = () => {
                 <img className="sm:w-96 w-48 mb-10" src="/public/rb_11908.png" alt="image2" />   
             </div>
       </motion.div>
-      </div>
-      </div>
+    </div>
   );
 };
 
