@@ -56,7 +56,7 @@ export default function Home() {
                     animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}>
                 
-                <img className="sm:w-96 w-48 place-items-end mb-10" src="https://i.ibb.co/rkr54Np/rb-2151182332.png" alt="image2" />   
+                <img className="sm:w-96 w-48 place-items-end mb-10" src="/public/1234.png" alt="image2" />   
             </motion.div>   
         </motion.div>
     );
