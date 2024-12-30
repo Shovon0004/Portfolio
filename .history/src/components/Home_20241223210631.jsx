@@ -3,17 +3,16 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
-
 export default function Home() {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/my_cv.pdf'; // Path to the CV file in the public folder
-        link.download = 'my_cv.pdf'; // Suggested file name for the download
+        link.href = '/cv.pdf'; // Path to the CV file in the public folder
+        link.download = 'My_CV.pdf'; // Suggested file name for the download
         link.click();
     };
     return (
         <motion.div className="mx-auto w-full max-w-7xl dark:bg-gray-900">
-            
+            <div class="sketchfab-embed-wrapper"> <iframe title="phoenix bird" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/844ba0cf144a413ea92c779f18912042/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/phoenix-bird-844ba0cf144a413ea92c779f18912042?utm_medium=embed&utm_campaign=share-popup&utm_content=844ba0cf144a413ea92c779f18912042" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> phoenix bird </a> by <a href="https://sketchfab.com/norberto3d?utm_medium=embed&utm_campaign=share-popup&utm_content=844ba0cf144a413ea92c779f18912042" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> NORBERTO-3D </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=844ba0cf144a413ea92c779f18912042" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
             <aside className="relative overflow-hidden dark:bg-gray-900  rounded-lg sm:mx-16 mx-2 sm:py-16">
                 <div className="relative z-10 max-w-screen-xl px-4   sm:py-24 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto dark:bg-gray-900">
@@ -59,8 +58,7 @@ export default function Home() {
                 transition={{ duration: 0.8, ease: "easeOut" }}>
                 
                 <img className="sm:w-96 w-48 place-items-end mb-10" src="https://i.ibb.co/rkr54Np/rb-2151182332.png" alt="image2" />   
-            </motion.div>
-            
+            </motion.div>   
         </motion.div>
     );
 }

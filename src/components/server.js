@@ -1,7 +1,7 @@
-const express = require("express");
-const nodemailer = require("nodemailer");
-const cors = require("cors");
-const bodyParser = require("body-parser");
+import express from "express";
+import nodemailer from "nodemailer";
+import cors from "cors";
+import bodyParser from "body-parser";
 
 const app = express();
 const PORT = 5000;
@@ -14,8 +14,8 @@ app.use(bodyParser.json());
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "your-email@gmail.com", // Replace with your email
-    pass: "your-email-password", // Replace with your email password (or use OAuth for security)
+    user: "shovonhalder04@gmail.com", // Replace with your email
+    pass: "#313704#Sh", // Replace with your email password (or use OAuth for security)
   },
 });
 
@@ -26,7 +26,7 @@ app.post("/api/contact", (req, res) => {
   // Email Configuration
   const mailOptions = {
     from: email,
-    to: "your-email@example.com", // Replace with your email address
+    to: "shovonhalder04@gmail.com", // Replace with your email address
     subject: `Contact Form Submission from ${name}`,
     text: `You have received a new message from the contact form on your website.\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };

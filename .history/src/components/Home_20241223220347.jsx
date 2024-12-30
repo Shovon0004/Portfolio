@@ -2,13 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
-
+import Container from './Container';
 
 export default function Home() {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/my_cv.pdf'; // Path to the CV file in the public folder
-        link.download = 'my_cv.pdf'; // Suggested file name for the download
+        link.href = '/cv.pdf'; // Path to the CV file in the public folder
+        link.download = 'My_CV.pdf'; // Suggested file name for the download
         link.click();
     };
     return (

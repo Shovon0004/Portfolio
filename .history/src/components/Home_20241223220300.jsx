@@ -2,13 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
-
+impo
 
 export default function Home() {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/my_cv.pdf'; // Path to the CV file in the public folder
-        link.download = 'my_cv.pdf'; // Suggested file name for the download
+        link.href = '/cv.pdf'; // Path to the CV file in the public folder
+        link.download = 'My_CV.pdf'; // Suggested file name for the download
         link.click();
     };
     return (
@@ -60,7 +60,7 @@ export default function Home() {
                 
                 <img className="sm:w-96 w-48 place-items-end mb-10" src="https://i.ibb.co/rkr54Np/rb-2151182332.png" alt="image2" />   
             </motion.div>
-            
+            <Container/>
         </motion.div>
     );
 }

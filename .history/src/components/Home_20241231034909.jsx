@@ -7,8 +7,8 @@ import styled from 'styled-components';
 export default function Home() {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/my_cv.pdf'; // Path to the CV file in the public folder
-        link.download = 'my_cv.pdf'; // Suggested file name for the download
+        link.href = '/cv.pdf'; // Path to the CV file in the public folder
+        link.download = 'Mmy_CV.pdf'; // Suggested file name for the download
         link.click();
     };
     return (
