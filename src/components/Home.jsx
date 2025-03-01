@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
+import animationData from './11.json';
+import animatedDta from './14.json';
+import Lottie from 'lottie-react';
 
 
 export default function Home() {
@@ -33,7 +36,7 @@ export default function Home() {
                     initial={{ opacity: 0, y: -100 }}
                     animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}>
-                    <img className="w-96" src="https://i.ibb.co/fS8TLsy/40484123-8794242.png" alt="image1" />
+                    <Lottie animationData={animationData} className="w-96" />
                 </motion.div>
             </aside>
             <motion.h1 className="relative text-2xl sm:text-5xl py-2 font-bold text-gray-900 dark:text-white transition-colors duration-200"
@@ -58,7 +61,7 @@ export default function Home() {
                     animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}>
                 
-                <img className="sm:w-96 w-48 place-items-end mb-10" src="https://i.ibb.co/rkr54Np/rb-2151182332.png" alt="image2" />   
+                    <Lottie animationData={animatedDta} className="w-96" />
             </motion.div>
             
         </motion.div>
